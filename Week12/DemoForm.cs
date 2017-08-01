@@ -22,5 +22,23 @@ namespace Week12
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// This is the hello button event handler for the click event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void HelloButton_Click(object sender, EventArgs e)
+        {
+            if(NameTextBox.Text.Length > 0 )
+            {
+                HelloLabel.Text = "Hello, " + NameTextBox.Text + "!";
+            }
+            else
+            {
+                HelloLabel.Text = "Hello World";
+            }
+
+            
+        }
     }
 }
