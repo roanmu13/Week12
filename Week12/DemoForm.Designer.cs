@@ -1,6 +1,6 @@
 ﻿namespace Week12
 {
-    partial class Form1
+    partial class DemoForm
     {
         /// <summary>
         /// Required designer variable.

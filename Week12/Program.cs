@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*
+ * Name: Rosa Munguia
+ * StudentID: 300735300
+ * Date: August 1 2017
+ * Description: Demo application to showcase windows fors and UI controls
+ * Version- 0.1 Project created
+ * */
 namespace Week12
 {
     static class Program
@@ -16,7 +22,7 @@ namespace Week12
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DemoForm());
         }
     }
 }
